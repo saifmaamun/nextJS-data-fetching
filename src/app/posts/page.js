@@ -1,4 +1,5 @@
 import Link from "next/link";
+import styles from "./Post.module.css"
 
 const Posts = async () => {
     const res = await fetch("http://localhost:5000/posts", {
@@ -10,6 +11,9 @@ const Posts = async () => {
 
     return (
         <div className="w-full">
+            <div className={styles.header_text}>
+                <p>Total Post : {posts.length}</p>
+            </div>
             {posts.map(post =>
                 <div key={post.id} className="card w-9/12  bg-slate-500 mx-auto my-4 shadow-xl">
                     <div className="card-body">
