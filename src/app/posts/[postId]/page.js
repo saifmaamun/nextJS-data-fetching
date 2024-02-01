@@ -9,7 +9,7 @@ export async function generateStaticParams() {
             id: post.id,
         }
     })
-    return id
+    return ids
 }
 
 
