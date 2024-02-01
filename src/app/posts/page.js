@@ -1,7 +1,8 @@
 
 const Posts = async () => {
     const res = await fetch("http://localhost:5000/posts", {
-        cache: "force-cache"
+        // cache: "force-cache"
+        next: { revalidate: 100 }
     });
     const posts = await res.json();
     console.log(posts)
@@ -12,7 +13,7 @@ const Posts = async () => {
                     <div className="card-body">
                         <h2 className="card-title">{posts.title}</h2>
                         <p>{posts.description}</p>
-                        <p>Likes Count: {posts.likesCount}</p>
+                        <p>Likes Count: {posts.likes_count}</p>
                         <div className="card-actions justify-end">
                             <button className="btn btn-primary">See More</button>
                         </div>
