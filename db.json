@@ -1,0 +1,41 @@
+{
+    "posts":[
+  {
+    "id": 1,
+    "title": "Exciting Adventure",
+    "description": "Embark on a thrilling journey filled with suspense and unexpected twists. Join our protagonist as they face challenges and unravel mysteries in this gripping adventure.",
+    "likes_count": 120
+  },
+  {
+    "id": 2,
+    "title": "Gourmet Delights",
+    "description": "Indulge in a culinary experience like no other. Explore a world of flavors as top chefs craft exquisite dishes that will tantalize your taste buds. Join us in the celebration of gastronomy!",
+    "likes_count": 98
+  },
+  {
+    "id": 3,
+    "title": "Inspiring Creativity",
+    "description": "Unleash your creative potential with our workshop on art and innovation. Dive into a realm of inspiration and learn techniques to express your imagination. Connect with like-minded individuals on a journey of self-discovery.",
+    "likes_count": 150
+  },
+  {
+    "id": 4,
+    "title": "Nature's Wonders",
+    "description": "Discover the breathtaking beauty of nature in this mesmerizing documentary. From lush rainforests to vast deserts, witness the wonders of our planet. Let's celebrate the awe-inspiring diversity of life!",
+    "likes_count": 80
+  },
+  {
+    "id": 5,
+    "title": "Tech Innovations",
+    "description": "Explore the latest technological marvels shaping the future. From artificial intelligence to space exploration, delve into the world of innovation and witness the incredible advancements that push the boundaries of possibility.",
+    "likes_count": 200
+  },
+  {
+    "id": 6,
+    "title": "Heartwarming Tales",
+    "description": "Experience a collection of heartwarming stories that touch the soul. From tales of friendship to stories of resilience, these narratives will leave you inspired and uplifted. Share the joy with your loved ones!",
+    "likes_count": 112
+  }
+]
+
+}
