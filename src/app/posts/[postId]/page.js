@@ -1,6 +1,18 @@
 import Link from 'next/link';
-import { useParams } from 'next/navigation';
+
 import React from 'react';
+export async function generateStaticParams() {
+    const posts = await fetch('http://localhost:5000/posts').then((res) => res.json())
+    console.log(posts)
+    const ids = posts.map(post => {
+        return {
+            id: post.id,
+        }
+    })
+    return id
+}
+
+
 
 const DetailsPage = async ({ params }) => {
     const id = params.postId
